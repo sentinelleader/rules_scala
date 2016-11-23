@@ -96,6 +96,7 @@ run_test bazel run test:JavaBinary2
 run_test bazel run test:MixJavaScalaLibBinary
 run_test bazel run test:ScalaBinary
 run_test bazel run test:ScalaLibBinary
+run_test bazel run test:JavaOnlySources
 run_test test_disappearing_class
 run_test find -L ./bazel-testlogs -iname "*.xml"
 run_test xmllint_test
